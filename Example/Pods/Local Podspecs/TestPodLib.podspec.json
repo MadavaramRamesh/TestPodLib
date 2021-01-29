@@ -1,0 +1,22 @@
+{
+  "name": "TestPodLib",
+  "version": "0.1.0",
+  "summary": "A short description of TestPodLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/MadavaramRamesh/TestPodLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "MadavaramRamesh": "madavaram.ramesh@ptw.com"
+  },
+  "source": {
+    "git": "https://github.com/MadavaramRamesh/TestPodLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TestPodLib/Classes/**/*"
+}
