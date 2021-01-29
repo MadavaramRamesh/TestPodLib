@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		47B921E4E9F02DC5389AB107 /* Pods_TestPodLib_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EAC89FFE5D87C2652CE17F /* Pods_TestPodLib_Example.framework */; };
+		52D3DD6525C48636004DDF79 /* swiftylib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3DD6425C48636004DDF79 /* swiftylib.swift */; };
+		52D3DD9325C48C2C004DDF79 /* swiftylib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52D3DD6425C48636004DDF79 /* swiftylib.swift */; };
 		561C8644D1859F57E9E621B5 /* Pods_TestPodLib_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C026600175ECFB2A974870C /* Pods_TestPodLib_Tests.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -32,6 +34,7 @@
 		14EAC89FFE5D87C2652CE17F /* Pods_TestPodLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestPodLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1605148C2C86F0325AE55087 /* Pods-TestPodLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPodLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-TestPodLib_Tests/Pods-TestPodLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		377D8C0472DF14F039372E54 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		52D3DD6425C48636004DDF79 /* swiftylib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftylib.swift; sourceTree = "<group>"; };
 		5415E47A73266D782D77EFA1 /* Pods-TestPodLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPodLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-TestPodLib_Example/Pods-TestPodLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* TestPodLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPodLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -93,6 +96,7 @@
 		607FACD21AFB9204008FA782 /* Example for TestPodLib */ = {
 			isa = PBXGroup;
 			children = (
+				52D3DD6425C48636004DDF79 /* swiftylib.swift */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -332,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				52D3DD6525C48636004DDF79 /* swiftylib.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +346,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				52D3DD9325C48C2C004DDF79 /* swiftylib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
